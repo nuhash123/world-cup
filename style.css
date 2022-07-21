@@ -1,0 +1,186 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.topper {
+    background-color: black;
+    color: white;
+    display: flex;
+    border: 30px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.half-weight {
+    margin: 20px;
+    width: 50%;
+}
+
+.main {
+    display: flex;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, red, rgb(234, 95, 118));
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.ball:hover {
+    transform: translate(-400px, 300px);
+}
+
+.ball img {
+    height: 150px;
+    width: 150px;
+}
+
+.ball {
+    transition: transform 3s;
+}
+
+.upcomming {
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    border: 30px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#first {
+    width: 190px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 5px;
+    background-color: white;
+    font-size: 18px;
+
+}
+
+#second {
+    width: 190px;
+    height: 50px;
+    border: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+}
+
+#third {
+    width: 190px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 5px;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+.upcoming-a {
+    text-decoration: none;
+
+}
+
+.chat-icon {
+    width: auto;
+    height: 18px;
+}
+
+.assets {
+    border: 2px solid rgb(174, 247, 247);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.transfer {
+    text-decoration: none;
+    background-color: rgb(245, 9, 9);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.icon {
+    display: flex;
+    gap: 15px;
+
+}
+
+.icon-space {
+    margin-left: 30px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu {
+
+    display: flex;
+
+}
+
+.menu a {
+    text-decoration: none;
+    margin: 5px auto;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    border: 30px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+.assets img {
+    width: 100%;
+}
+
+.foot {
+    text-align: center;
+    color: white;
+}
+
+.hr {
+    width: 70%;
+    justify-content: center;
+
+}
