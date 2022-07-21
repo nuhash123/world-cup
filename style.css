@@ -161,6 +161,27 @@ h1 {
     color: white;
 }
 
+.vs-team {
+    display: flex;
+    gap: 10px;
+}
+
+.germany {
+    width: 100px;
+    height: auto;
+}
+
+.france {
+    width: 100px;
+    height: auto;
+}
+
+.come {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+
 .footer {
     background-color: black;
     border: 30px;
@@ -183,4 +204,16 @@ h1 {
     width: 70%;
     justify-content: center;
 
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width:577px) and (max-width: 992px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
